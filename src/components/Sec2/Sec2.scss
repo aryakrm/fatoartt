@@ -1,0 +1,28 @@
+.Sec2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  .price-title {
+    margin-bottom: 2rem;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      border: 4px solid black;
+      padding: 1rem;
+      border-radius: 20px;
+      width: 237px;
+    }
+  }
+}
