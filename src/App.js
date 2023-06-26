@@ -7,6 +7,7 @@ import Sec2 from "./components/Sec2/Sec2";
 import Sec3 from "./components/Sec3/Sec3";
 import Hakkimizda from "./components/Hakkimizda/Hakkimizda";
 import { motion, useScroll, useSpring } from "framer-motion";
+import { RiWhatsappFill } from "react-icons/ri";
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -25,6 +26,9 @@ function App() {
       <Sec3 />
       <Hakkimizda />
       <Footer />
+      <a href="https://wa.me/905545626497">
+        <RiWhatsappFill className="whatsapp-icon" />
+      </a>
     </div>
   );
 }

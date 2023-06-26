@@ -18,3 +18,12 @@
   background: black;
   transform-origin: 0%;
 }
+
+.whatsapp-icon {
+  position: fixed;
+  z-index: 50;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 5rem;
+  fill: #25d366;
+}
