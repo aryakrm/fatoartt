@@ -1,10 +1,49 @@
 .Nav {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   border: 5px solid black;
+  padding: 0 2rem;
   img {
     width: 10rem;
+  }
+  .hamburger {
+    ._icon {
+      font-size: 3rem;
+      cursor: pointer;
+      color: black;
+      &:hover {
+        opacity: 0.7;
+        transition: 0.5s;
+      }
+    }
+  }
+  .side-menu {
+    position: absolute;
+    border-radius: 15px;
+    z-index: 10;
+    width: 100%;
+    height: fit-content;
+    // background-image: url(../../../public/assets/bg4.jpg);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding: 4rem;
+    .menu-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 3rem;
+      img {
+        margin-top: 30rem;
+      }
+      margin-bottom: 2rem;
+    }
   }
 }

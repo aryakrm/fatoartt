@@ -3,7 +3,7 @@ import "./Sec2.scss";
 
 function Sec2() {
   return (
-    <div className="Sec2">
+    <div className="Sec2" id="sec2">
       <h1 className="price-title">Fiyatlar</h1>
       <div className="cards">
         <div className="card">

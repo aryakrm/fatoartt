@@ -5,6 +5,7 @@ import Nav from "./components/Nav/Nav";
 import Sec1 from "./components/Sec1/Sec1";
 import Sec2 from "./components/Sec2/Sec2";
 import Sec3 from "./components/Sec3/Sec3";
+import Hakkimizda from "./components/Hakkimizda/Hakkimizda";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Sec2 />
       <Gallery />
       <Sec3 />
+      <Hakkimizda />
       <Footer />
     </div>
   );
