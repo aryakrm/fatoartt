@@ -3,10 +3,20 @@ import "./Sec1.scss";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { RiInstagramFill } from "react-icons/ri";
 import { ImYoutube } from "react-icons/im";
+import { motion } from "framer-motion";
 
 function Sec1() {
   return (
-    <div className="Sec1">
+    <motion.div
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 1,
+        delay: 0.8,
+        ease: [0, 0.71, 0.2, 1.01],
+      }}
+      className="Sec1"
+    >
       <h1>Sevdikleriniz için en özel hediye. </h1>
       <h2>
         %100 el yapımı uygun fiyatlı karakalem çalışmaları için hemen şimdi
@@ -33,7 +43,7 @@ function Sec1() {
           <ImYoutube />
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

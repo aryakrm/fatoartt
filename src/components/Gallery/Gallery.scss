@@ -5,9 +5,16 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 5rem;
+  padding: 1.5rem;
   gap: 0.5rem;
   img {
     width: 10rem;
     border: 8px solid black;
+  }
+  .ant-image-mask {
+    width: 10rem;
+  }
+  .ant-image {
+    width: 10rem;
   }
 }

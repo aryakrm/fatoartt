@@ -3,9 +3,10 @@ import "./Footer.scss";
 
 function Footer() {
   return (
-    <Footer className="Footer">
+    <div className="Footer">
       <img src="/assets/fatoArttLogo.png" alt="Logo" />
-    </Footer>
+      <p>Fato Artt | Copyright © 2023 Tüm Hakları Saklıdır.</p>
+    </div>
   );
 }
 
